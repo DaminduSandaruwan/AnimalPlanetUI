@@ -27,5 +27,5 @@ class Strings{
   static const String PETS = "PETS";
 
 
-  static const String text1 = "Life with a Tiger sdn sdklvn sdlkvn lsdknv lskdnv sdlvns lsdvns sldnv slndvsld lsdnvsd";
+  static const String text1 = "Life with a Tiger sdn sdklvn sdlkvn jkafasjk kasjf skdfjh slkds1221";
 }

@@ -71,14 +71,19 @@ class DashboardScreen extends StatelessWidget {
                       child: Row(
                         children: <Widget>[
                           Container(
+                            margin: const EdgeInsets.only(left:16),
                             width: MediaQuery.of(context).size.width*0.5,
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Expanded(
-                                  child: Image.asset(
-                                    "assets/images/tiger.jpg",
-                                    fit: BoxFit.cover,
-                                    width: MediaQuery.of(context).size.width*0.5,
+                                  child: ClipRRect(
+                                    child: Image.asset(
+                                      "assets/images/tiger.jpg",
+                                      fit: BoxFit.cover,
+                                      width: MediaQuery.of(context).size.width*0.5,
+                                    ),
+                                    borderRadius: BorderRadius.circular(12),
                                   ),
                                 ),
                                 Padding(
@@ -98,16 +103,20 @@ class DashboardScreen extends StatelessWidget {
                               ],
                             ),
                           ),
+                          SizedBox(width: 10),
                           Container(
                             width: MediaQuery.of(context).size.width*0.5,
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: <Widget>[
                                 Expanded(
-                                  child: Image.asset(
-                                    "assets/images/wild_animals.jpeg",
-                                    fit: BoxFit.cover,
-                                    width: MediaQuery.of(context).size.width*0.5,
-
+                                  child: ClipRRect(
+                                    child: Image.asset(
+                                      "assets/images/wild_animals.jpeg",
+                                      fit: BoxFit.cover,
+                                      width: MediaQuery.of(context).size.width*0.5,
+                                    ),
+                                    borderRadius: BorderRadius.circular(12),
                                   ),
                                 ),
                                 Padding(
