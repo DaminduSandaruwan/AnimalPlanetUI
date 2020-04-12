@@ -64,7 +64,7 @@ import 'package:flutter/material.dart';
                 height: 100,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Color(0xFFD3A070).withOpacity(0.8),
+                  color: Color(0xFFDAD4CC).withOpacity(0.8),
                 ),
                 child: Align(
                   alignment: Alignment(-0.4,-0.4),
