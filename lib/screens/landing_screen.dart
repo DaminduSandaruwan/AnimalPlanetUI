@@ -1,4 +1,6 @@
 import 'package:animal_planet/common/custom_app_bar.dart';
+import 'package:animal_planet/utils/strings.dart';
+import 'package:animal_planet/utils/text_style.dart';
 import 'package:flutter/material.dart';
 
  class LandingScreen extends StatelessWidget {
@@ -16,6 +18,24 @@ import 'package:flutter/material.dart';
           Column(
             children: <Widget>[
               CustomAppBar(),
+              Spacer(),
+              RichText(
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: Strings.READY_TO_WATCH,
+                    style: TextStyles.bigHeadingTextStyle,
+                  ),
+                  TextSpan(
+                    text: "\n"
+                  ),
+                  TextSpan(
+                    text: Strings.READY_TO_WATCH_DESC,
+                    style: TextStyles.bodyTextStyle,
+                  ),
+                ],
+              ),
+            ),
             ],
           ),
          ],
