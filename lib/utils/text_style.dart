@@ -23,8 +23,16 @@ class TextStyles{
 
   static final TextStyle bodyTextStyle = TextStyle(
     fontSize: 16,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w400,
     color: Colors.white,
   );
+
+  static final TextStyle buttonTextStyle = TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+  );
+
+
 } 
 
