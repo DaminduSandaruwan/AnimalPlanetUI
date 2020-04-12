@@ -6,7 +6,7 @@ class TextStyles{
   static final TextStyle appNameTextStyle = TextStyle(
     fontSize: 22,
     fontWeight: FontWeight.w800,
-    color: Colors.white,
+    color: Colors.white.withOpacity(0.7),
   );
 
   static final TextStyle tagLineTextStyle = TextStyle(
