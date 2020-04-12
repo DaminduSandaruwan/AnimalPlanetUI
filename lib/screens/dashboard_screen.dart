@@ -81,11 +81,102 @@ class DashboardScreen extends StatelessWidget {
                       style: TextStyles.titleTextStyle,
                     ),
                   ),
-                  
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal:16.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisSize: MainAxisSize.max,
+                      children: <Widget>[
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8), 
+                                color: Color(0xFF8C5835),
+                              ),
+                              child: Image.asset(
+                                "assets/images/bear.png",
+                                height:40, 
+                                width:40
+                              ),
+                            ),
+                            SizedBox(height: 4),
+                            Text(
+                              Strings.BEER,
+                              style: TextStyles.body2TextStyle,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8), 
+                                color: Color(0xFF8C5835),
+                              ),
+                              child: Image.asset(
+                                "assets/images/lion.png",
+                                height:40, 
+                                width:40
+                              ),
+                            ),
+                            SizedBox(height: 4),
+                            Text(
+                              Strings.LION,
+                              style: TextStyles.body2TextStyle,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8), 
+                                color: Color(0xFF8C5835),
+                              ),
+                              child: Image.asset(
+                                "assets/images/reptiles.png",
+                                height:40, 
+                                width:40
+                              ),
+                            ),
+                            SizedBox(height: 4),
+                            Text(
+                              Strings.REPTILES,
+                              style: TextStyles.body2TextStyle,
+                            ),
+                          ],
+                        ),
+                        Column(
+                          children: <Widget>[
+                            Container(
+                              padding: const EdgeInsets.all(12),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(8), 
+                                color: Color(0xFF8C5835),
+                              ),
+                              child: Image.asset(
+                                "assets/images/pets.png",
+                                height:40, 
+                                width:40
+                              ),
+                            ),
+                            SizedBox(height: 4),
+                            Text(
+                              Strings.PETS,
+                              style: TextStyles.body2TextStyle,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
-
           ),
         ],
       ),
