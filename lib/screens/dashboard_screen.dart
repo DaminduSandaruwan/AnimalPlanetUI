@@ -66,8 +66,69 @@ class DashboardScreen extends StatelessWidget {
                     ),
                   ),
                   Expanded(
-                    child: Container(
-                      //color: Colors.white
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: <Widget>[
+                          Container(
+                            width: MediaQuery.of(context).size.width*0.5,
+                            child: Column(
+                              children: <Widget>[
+                                Expanded(
+                                  child: Image.asset(
+                                    "assets/images/tiger.jpg",
+                                    fit: BoxFit.cover,
+                                    width: MediaQuery.of(context).size.width*0.5,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(vertical: 6),
+                                  child: Text(
+                                    Strings.LIFE_WITH_TIGER, 
+                                    style: TextStyles.titleTextStyle,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(vertical: 6),
+                                  child: Text(
+                                    Strings.text1, 
+                                    style: TextStyles.body3TextStyle,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: MediaQuery.of(context).size.width*0.5,
+                            child: Column(
+                              children: <Widget>[
+                                Expanded(
+                                  child: Image.asset(
+                                    "assets/images/wild_animals.jpeg",
+                                    fit: BoxFit.cover,
+                                    width: MediaQuery.of(context).size.width*0.5,
+
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(vertical: 6),
+                                  child: Text(
+                                    Strings.WILD_ANIMALS, 
+                                    style: TextStyles.titleTextStyle,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(vertical: 6),
+                                  child: Text(
+                                    Strings.text1, 
+                                    style: TextStyles.body3TextStyle,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   Padding(

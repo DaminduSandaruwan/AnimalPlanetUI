@@ -74,5 +74,13 @@ class TextStyles{
     fontFamily: 'Ubuntu',
   );
 
+    static final TextStyle body3TextStyle = TextStyle(
+    fontSize: 12,
+    fontWeight: FontWeight.w300,
+    color: Colors.white.withOpacity(0.8),
+    height: 1.2,
+    fontFamily: 'Ubuntu',
+  );
+
 } 
 
