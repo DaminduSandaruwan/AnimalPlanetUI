@@ -65,14 +65,10 @@ class DashboardScreen extends StatelessWidget {
 
                     ),
                   ),
-                  Row(
-                    children: <Widget>[
-                      Column(
-                        children: <Widget>[
-
-                        ],
-                      ),
-                    ],
+                  Expanded(
+                    child: Container(
+                      //color: Colors.white
+                    ),
                   ),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal:24, vertical:16),
@@ -174,6 +170,7 @@ class DashboardScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                  SizedBox(height: 32),
                 ],
               ),
             ),
