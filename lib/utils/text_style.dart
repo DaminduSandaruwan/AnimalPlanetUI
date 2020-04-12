@@ -18,7 +18,7 @@ class TextStyles{
   );
 
   static final TextStyle bigHeadingTextStyle = TextStyle(
-    fontSize: 60,
+    fontSize: 50,
     fontWeight: FontWeight.w900,
     color: Colors.white,
     fontFamily: 'Ubuntu',

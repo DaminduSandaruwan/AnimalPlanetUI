@@ -1,0 +1,70 @@
+
+
+import 'package:animal_planet/common/custom_app_bar.dart';
+import 'package:animal_planet/utils/strings.dart';
+import 'package:animal_planet/utils/text_style.dart';
+import 'package:flutter/material.dart';
+
+class DashboardScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Color(0xFFB98959),
+      body: Stack(
+        fit: StackFit.expand,
+        children: <Widget>[
+          FractionallySizedBox(
+            alignment: Alignment.topCenter,
+            heightFactor: 0.40,
+            child: Container(
+              child: Stack(
+                children: <Widget>[
+                  Image.asset(
+                    "assets/images/elephant.jpg",
+                    width: MediaQuery.of(context).size.width,
+                    fit: BoxFit.fitWidth,
+                  ),
+                  Column(
+                    children: <Widget>[
+                      CustomAppBar(
+                        opacity : 1,
+                      ),
+                      Expanded(   
+                        child: Align(
+                          alignment: Alignment(0,-0.7),
+                          child: Text(
+                            Strings.WELCOME_TO_APPLET,
+                            style: TextStyles.bigHeadingTextStyle,
+                            textAlign: TextAlign.center,                       
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+
+          ),
+          FractionallySizedBox(
+            alignment: Alignment.bottomCenter,
+            heightFactor: 0.65,
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.vertical(top:Radius.circular(40),),
+                color: Color(0xFFB98959),
+              ),
+              child: Column(
+                children: <Widget>[
+                  
+                ],
+              ),
+            ),
+
+          ),
+        ],
+      ),
+      
+    );
+  }
+}
