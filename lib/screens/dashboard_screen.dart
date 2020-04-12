@@ -55,7 +55,32 @@ class DashboardScreen extends StatelessWidget {
                 color: Color(0xFFB98959),
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal:24, vertical:16),
+                    child: Text(
+                      Strings.RELATED_TO_YOU,
+                      style: TextStyles.buttonTextStyle,
+
+                    ),
+                  ),
+                  Row(
+                    children: <Widget>[
+                      Column(
+                        children: <Widget>[
+
+                        ],
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal:24, vertical:16),
+                    child: Text(
+                      Strings.QUICK_CATEGORIES,
+                      style: TextStyles.titleTextStyle,
+                    ),
+                  ),
                   
                 ],
               ),

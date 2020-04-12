@@ -17,5 +17,15 @@ class Strings{
   static const String THREE_MONTH_SUBSCRIPTION = "3 Month subscription";
   static const String SIX_MONTH_SUBSCRIPTION = "6 Month subscription";
   static const String WELCOME_TO_APPLET ="Welcome to New Aplanet";
+  static const String RELATED_TO_YOU = "Related to you";
+  static const String LIFE_WITH_TIGER = "Life with a Tiger";
+  static const String WILD_ANIMALS = "Wild animals";
+  static const String QUICK_CATEGORIES = "Quick Categories";
+  static const String BEER = "BEER";
+  static const String LION = "LION";
+  static const String REPTILES = "REPTILES";
+  static const String PETS = "PETS";
 
+
+  static const String text1 = "Life with a Tiger sdn sdklvn sdlkvn lsdknv lskdnv sdlvns lsdvns sldnv slndvsld lsdnvsd";
 }

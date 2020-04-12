@@ -59,5 +59,20 @@ class TextStyles{
     fontFamily: 'Ubuntu',
   );
 
+    static final TextStyle titleTextStyle = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: Colors.white,
+    fontFamily: 'Ubuntu',
+  );
+
+  static final TextStyle body2TextStyle = TextStyle(
+    fontSize: 16,
+    letterSpacing: 1.3,
+    fontWeight: FontWeight.w400,
+    color: Colors.white.withOpacity(0.5),
+    fontFamily: 'Ubuntu',
+  );
+
 } 
 
